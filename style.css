@@ -7,7 +7,7 @@ body{
 .fon{
     min-width: 480px;
     min-height: 100vh;
-    background: url("assets/home.png") center/cover;
+    background: url("./assets/home.png") center/cover;
     background-blend-mode: multiply;
 }
 
@@ -93,7 +93,7 @@ h1{
 }
 
 .deskReady{
-    background: url("assets/mythicCardBackground.png");
+    background: url("./assets/mythicCardBackground.png");
     background-size: cover;
 }
 
