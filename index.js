@@ -386,7 +386,7 @@ function choiseCard(array){
 
 
 function getCard(text){
-    console.log(text);
+   // console.log(text);
     switch(text[0]){
         case "b": {changeСounter("b");  showStage(firstStage,secondStage,thirdStage);} return `url(assets/MythicCards/blue/blue${text.slice(1,text.length)}.png)`;
         case "n": {changeСounter("n");  showStage(firstStage,secondStage,thirdStage);}  return `url(assets/MythicCards/brown/brown${text.slice(1,text.length)}.png)`;
